@@ -1,0 +1,20 @@
+# Created by webjeda
+# Update the data appropriately
+# Check _includes folder for all the website sections
+
+
+title: Dataaugur
+description: Something about the website
+url: http://dataaugur.com
+
+email: abhinavkgoswami@gmail.com
+
+twitter: https://some-link
+facebook: https://some-link
+instagram: https://some-link
+linkedin: https://some-link
+dribble: https://some-link
+pinterest: https://some-link
+
+
+include: [_pages]
