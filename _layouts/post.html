@@ -1,3 +1,12 @@
 ---
 layout: default
 ---
+
+{% include header-pages.html %}
+
+<div class="page-content">
+<h1 class="post-title">{{page.title}}</h1>
+<p>{{ page.date | date: '%B %d, %Y' }}</p>
+{{content}}
+
+</div>

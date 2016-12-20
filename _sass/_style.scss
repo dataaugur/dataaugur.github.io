@@ -1,4 +1,9 @@
 
+
+p {
+    margin-top: 1.3em;
+}
+
 #insure {
         background: url("/assets/css/images/overlay.png"), url("/images/one.jpg");
 		background-size: 256px 256px, cover;
@@ -23,4 +28,26 @@
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
+}
+
+.page-content {
+    max-width: 800px;
+    margin: 2em auto;
+    background: #fff;
+
+}
+
+.page-title {
+        font-size: 5em;
+        line-height: 2;
+    }
+
+.post-title {
+    font-size: 3em;
+    line-height: 1.2;
+}
+
+.post-index-title {
+    font-size: 1.2em;
+    line-height: 1.8;
 }

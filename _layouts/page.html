@@ -2,20 +2,11 @@
 layout: default
 ---
 
-<!-- Page Header -->
-			<header id="header">
-				<h1>{{site.title}}</h1>
-				<nav>
-					<ul>
-						<li><a href="/analytics/">Analytics</a></li>
-						<li><a href="/finance/">Finance</a></li>
-						<li><a href="/healthcare/">Healthcare</a></li>
-						<li><a href="/insurance/">Insurance</a></li>
-						<li><a href="/contact/">Contact</a></li>
-						<li><a href="/blog/">Blog</a></li>
-					</ul>
-				</nav>
-			</header>
+{% include header-pages.html %}
+
+<div class="page-content">
+<h1 class="page-title">{{page.title}}</h1>
 
 {{content}}
 
+</div>

@@ -1,12 +1,13 @@
 # Created by webjeda
 # Update the data appropriately
 # Check _includes folder for all the website sections
-
+#dataaugur
+#abcd1234
 
 title: Dataaugur
 description: Something about the website
 url: http://dataaugur.com
-
+permalink: /:title
 email: abhinavkgoswami@gmail.com
 
 twitter: https://some-link

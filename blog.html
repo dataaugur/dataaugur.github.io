@@ -1,0 +1,16 @@
+---
+title: Blog
+layout: page
+permalink: /blog/
+---
+
+
+{% for post in site.posts %}
+
+<a href="{{post.url}}">
+<h1 class="post-index-title">{{post.title}}</h1>
+</a>
+<p style="margin: 0.5em">{{ post.date | date: '%B %d, %Y' }}</p>
+<p style="margin: 0.5em">{{post.content | truncatewords: 30 | strip_html | strip | strip_newlines}}</p>
+<br />
+{% endfor %}
